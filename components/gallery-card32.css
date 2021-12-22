@@ -1,0 +1,13 @@
+.gallery-card32-gallery-card {
+  width: 100%;
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.gallery-card32-image {
+  width: 100px;
+  height: 380%;
+  object-fit: fill;
+}

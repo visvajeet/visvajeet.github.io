@@ -1,0 +1,31 @@
+.image-container {
+  width: 30px;
+  height: 3px;
+  display: flex;
+  position: relative;
+  margin-top: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius4);
+  margin-bottom: var(--dl-space-space-unit);
+  background-color: #D9D9D9;
+}
+.rootClassName {
+  align-self: flex-start;
+}
+.rootClassName1 {
+  align-self: flex-start;
+}
+.rootClassName2 {
+  align-self: flex-start;
+}
+.rootClassName3 {
+  align-self: flex-start;
+}
+.rootClassName4 {
+  align-self: flex-start;
+}
+.rootClassName5 {
+  align-self: flex-start;
+}
+.rootClassName6 {
+  align-self: flex-start;
+}

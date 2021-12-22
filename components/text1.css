@@ -1,0 +1,42 @@
+.text1-container {
+  display: flex;
+  position: relative;
+}
+.text1-text {
+  color: rgba(0, 0, 0, 0.79);
+  font-size: 2rem;
+  align-self: flex-start;
+  font-family: Noto Sans;
+  line-height: 1.3;
+}
+.rootClassName {
+  align-self: flex-start;
+}
+.rootClassName1 {
+  align-self: flex-start;
+}
+.rootClassName2 {
+  align-self: flex-start;
+}
+.rootClassName3 {
+  align-self: flex-start;
+}
+.rootClassName4 {
+  align-self: flex-start;
+}
+.rootClassName5 {
+  align-self: flex-start;
+}
+.rootClassName6 {
+  align-self: flex-start;
+}
+@media(max-width: 991px) {
+  .text1-text {
+    text-align: center;
+  }
+}
+@media(max-width: 479px) {
+  .text1-text {
+    font-size: 1.5rem;
+  }
+}

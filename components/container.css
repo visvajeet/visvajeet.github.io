@@ -1,0 +1,31 @@
+.container-container {
+  display: flex;
+  opacity: 0.8;
+  transition: 0.3s;
+  align-items: flex-start;
+  justify-content: center;
+}
+.container-container:hover {
+  opacity: 1.0;
+}
+.container-link {
+  display: contents;
+}
+.container-image {
+  width: 30px;
+  align-self: center;
+  object-fit: cover;
+  transition: 0.3s;
+  text-decoration: none;
+}
+.container-image:hover {
+  opacity: 1.0;
+}
+.container-text {
+  color: #000000;
+  align-self: center;
+  font-style: normal;
+  font-family: Noto Sans;
+  font-weight: 700;
+  margin-left: var(--dl-space-space-halfunit);
+}
