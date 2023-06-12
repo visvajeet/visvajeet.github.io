@@ -1,0 +1,14 @@
+.text2-container {
+  display: flex;
+  position: relative;
+}
+.text2-text {
+  color: rgba(0, 0, 0, 0.75);
+  font-size: 18px;
+  font-family: Noto Sans;
+}
+@media(max-width: 479px) {
+  .text2-text {
+    font-size: 14px;
+  }
+}

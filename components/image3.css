@@ -1,0 +1,18 @@
+.image3-container {
+  display: flex;
+  position: relative;
+}
+.image3-image {
+  width: 135px;
+  height: 265px;
+  margin-top: var(--dl-space-space-unit);
+  object-fit: fill;
+  margin-right: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius4);
+}
+@media(max-width: 479px) {
+  .image3-image {
+    width: 100px;
+    height: 200px;
+  }
+}

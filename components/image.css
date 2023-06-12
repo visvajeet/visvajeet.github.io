@@ -1,0 +1,31 @@
+.image-container {
+  width: 30px;
+  height: 3px;
+  display: flex;
+  position: relative;
+  margin-top: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius4);
+  margin-bottom: var(--dl-space-space-unit);
+  background-color: #D9D9D9;
+}
+.image-root-class-name {
+  align-self: flex-start;
+}
+.image-root-class-name1 {
+  align-self: flex-start;
+}
+.image-root-class-name2 {
+  align-self: flex-start;
+}
+.image-root-class-name3 {
+  align-self: flex-start;
+}
+.image-root-class-name4 {
+  align-self: flex-start;
+}
+.image-root-class-name5 {
+  align-self: flex-start;
+}
+.image-root-class-name6 {
+  align-self: flex-start;
+}

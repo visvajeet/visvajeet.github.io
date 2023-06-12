@@ -1,0 +1,86 @@
+.container1-container {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  padding: var(--dl-space-space-doubleunit);
+  margin-top: var(--dl-space-space-unit);
+  align-items: flex-start;
+  padding-top: var(--dl-space-space-tripleunit);
+  padding-left: var(--dl-space-space-tripleunit);
+  border-radius: var(--dl-radius-radius-radius8);
+  padding-right: var(--dl-space-space-tripleunit);
+  padding-bottom: var(--dl-space-space-tripleunit);
+  background-color: rgba(217, 217, 217, 0.2);
+}
+.container1-image {
+  width: 80px;
+  object-fit: cover;
+  padding-top: var(--dl-space-space-unit);
+  padding-left: var(--dl-space-space-halfunit);
+  padding-bottom: var(--dl-space-space-unit);
+}
+.container1-container1 {
+  flex: 0 0 auto;
+  display: flex;
+  align-self: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.container1-container2 {
+  display: flex;
+  position: relative;
+}
+.container1-text {
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 1.5em;
+  font-family: Noto Sans;
+  margin-left: var(--dl-space-space-doubleunit);
+}
+.container1-text1 {
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 16px;
+  font-family: Noto Sans;
+  margin-left: var(--dl-space-space-doubleunit);
+  padding-left: var(--dl-space-space-halfunit);
+  padding-right: var(--dl-space-space-halfunit);
+}
+.container1-root-class-name2 {
+  background-color: rgba(217, 217, 217, 0.15);
+}
+.container1-root-class-name3 {
+  background-color: rgba(217, 217, 217, 0.15);
+}
+.container1-root-class-name4 {
+  background-color: rgba(217, 217, 217, 0.15);
+}
+.container1-root-class-name5 {
+  margin-top: var(--dl-space-space-doubleunit);
+  background-color: rgba(217, 217, 217, 0.15);
+}
+.container1-root-class-name {
+  background-color: rgba(217, 217, 217, 0.15);
+}
+@media(max-width: 479px) {
+  .container1-container {
+    margin-top: var(--dl-space-space-unit);
+    padding-top: var(--dl-space-space-unit);
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    padding-bottom: var(--dl-space-space-unit);
+    background-color: rgba(217, 217, 217, 0.15);
+  }
+  .container1-image {
+    width: 60;
+    padding-right: var(--dl-space-space-unit);
+  }
+  .container1-text {
+    font-size: 1em;
+    margin-left: var(--dl-space-space-halfunit);
+  }
+  .container1-text1 {
+    font-size: 11.5px;
+    margin-left: var(--dl-space-space-halfunit);
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
